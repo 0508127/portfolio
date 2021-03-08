@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("../imagens/4683.jpg");
+    background-image: url("C:/meussites/portfolio/imagens/4683.jpg");
     background-repeat: no-repeat;
     background-size: 1352px 1000px;
 }
@@ -79,9 +79,26 @@ body {
     border: 3px solid azure;
 }
 
+
 a {
     color: white;
     font-size: 15px;
     text-shadow: none;
+}
+
+
+#voltar {
+    color: black;
+    margin-bottom: -20px;
+    margin-left: 25px;
+}
+
+
+#proxima {
+    color: black;
+    float: right;
+    vertical-align: baseline;
+    margin-bottom: 10px;
+    margin-right: 25px;
 }
 

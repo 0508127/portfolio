@@ -68,7 +68,8 @@ body {
 }
 
 
-#contatos {background-color: #1f1f1f;
+#contatos {
+    background-color: #1f1f1f;
     padding-bottom: 10px;
     padding-top: 15px;
     padding-left: 30px;
@@ -119,13 +120,19 @@ a {
 }
 
 
-ul {padding-left: 50px;
-padding-right: 20px;}
+ul {
+    padding-left: 50px;
+    padding-right: 20px;
+}
 
 
-h2 {padding-top: 20px;
-vertical-align: middle;
-text-align: center;}
+h2 {
+    padding-top: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
 
 
-#geogebra {color: black;}
+#geogebra {
+    color: black;
+}

@@ -4,9 +4,10 @@
 }
 
 body {
-    background-image: url("../imagens/4683.jpg");
+    background-image: url("../imagens/4683(3).jpg");
     background-repeat: no-repeat;
-    background-size: 1352px 2040px;
+    background-position: top 50% left 50%;
+    background-size: cover;
 }
 
 
@@ -90,7 +91,7 @@ a {
 
 
 #voltar {
-    color: black;
+    color: white;
     margin-top: 20px;
     margin-left: 25px;
     float: left;
@@ -110,14 +111,16 @@ a {
     font-size: 20px;
     background-color: snow;
     text-align: center;
-    height: 1700px;
+    height: 2400px;
     width: 1000px;
     text-align: justify;
     margin-left: 170px;
     margin-top: 100px;
     position: relative;
     border: 3px solid black;
+    padding-top: 35px;
 }
+
 
 
 ul {
@@ -136,3 +139,6 @@ h2 {
 #geogebra {
     color: black;
 }
+
+
+.resumo {padding: 20px;}

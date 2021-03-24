@@ -4,8 +4,9 @@
 }
 
 body {
-    background-image: url("../imagens/4683.jpg");
+   background-image: url("../imagens/4683.jpg");
     background-repeat: no-repeat;
+   background-attachment: fixed;
     background-size: 1352px 1000px;
 }
 
@@ -68,7 +69,8 @@ body {
 }
 
 
-#contatos {background-color: #1f1f1f;
+#contatos {
+    background-color: #1f1f1f;
     padding-bottom: 10px;
     padding-top: 15px;
     padding-left: 30px;
@@ -101,3 +103,28 @@ a {
     margin-right: 25px;
 }
 
+
+#fm {
+    font-size: 20px;
+    background-color: snow;
+    text-align: center;
+    height: 3300px;
+    width: 1000px;
+    text-align: justify;
+    margin-left: 170px;
+    margin-top: 100px;
+    position: relative;
+    border: 3px solid black;
+    padding: 28px;
+}
+
+
+/*#grafico3 {
+padding-bottom: 400px;
+padding-left: 400px;
+float: inherit;}*/
+
+
+.resumo2 {
+    padding: 20px;
+}

@@ -6,6 +6,7 @@
 body {
     background-image: url("../imagens/4683.jpg");
     background-repeat: no-repeat;
+   background-attachment: fixed;
     background-size: 1352px 1000px;
 }
 
@@ -68,7 +69,8 @@ body {
 }
 
 
-#contatos {background-color: #1f1f1f;
+#contatos {
+    background-color: #1f1f1f;
     padding-bottom: 10px;
     padding-top: 15px;
     padding-left: 30px;
@@ -77,6 +79,7 @@ body {
     font-size: 15px;
     text-shadow: none;
     border: 3px solid azure;
+    height: 130px;
 }
 
 
@@ -88,9 +91,10 @@ a {
 
 
 #voltar {
-    color: black;
-    margin-bottom: -20px;
+    color: white;
+    margin-top: 20px;
     margin-left: 25px;
+    float: left;
 }
 
 
@@ -98,7 +102,43 @@ a {
     color: black;
     float: right;
     vertical-align: baseline;
-    margin-bottom: 10px;
+    margin-top: 20px;
     margin-right: 25px;
 }
 
+
+#cb {
+    font-size: 20px;
+    background-color: snow;
+    text-align: center;
+    height: 2400px;
+    width: 1000px;
+    text-align: justify;
+    margin-left: 170px;
+    margin-top: 100px;
+    position: relative;
+    border: 3px solid black;
+    padding-top: 35px;
+}
+
+
+
+ul {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+
+h2 {
+    padding-top: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#geogebra {
+    color: black;
+}
+
+
+.resumo {padding: 20px;}

@@ -4,8 +4,9 @@
 }
 
 body {
-    background-image: url("../imagens/4683.jpg");
+ background-image: url("../imagens/4683.jpg");
     background-repeat: no-repeat;
+   background-attachment: fixed;
     background-size: 1352px 1000px;
 }
 

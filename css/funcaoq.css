@@ -4,10 +4,10 @@
 }
 
 body {
-    background-image: url("../imagens/4683.jpg");
+   background-image: url("../imagens/fundo8-2.jpg");
     background-repeat: no-repeat;
    background-attachment: fixed;
-    background-size: 1352px 1000px;
+    background-size: 1350px 1000px;
 }
 
 
@@ -118,7 +118,7 @@ a {
     margin-top: 100px;
     position: relative;
     border: 3px solid black;
-    padding-top: 35px;
+    padding: 28px;
 }
 
 
@@ -129,8 +129,11 @@ ul {
 }
 
 
-h2 {
-    padding-top: 20px;
+font {padding-left: 30px;}
+
+
+h1 {
+    background-color: #ffe7d8;
     vertical-align: middle;
     text-align: center;
 }

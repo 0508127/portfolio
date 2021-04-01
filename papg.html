@@ -8,16 +8,16 @@
     <title>Progressões aritméticas e geométricas</title>
     <link type="text/css" rel="stylesheet" href="css/papg.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
- <div id="sum">
+    <div id="sum">
         <h1 id="titulo"><br /> Portfólio de Matemática </h1>
 
         <ul class="bm">
-            <li> <a href="index.html">Início</a></li>
+            <li> <a href="index.html">Home</a></li>
             <li> <a href="introducao.html"> Introdução </a></li>
             <li> <a href="funcaoq.html"> Funções quadráticas </a></li>
             <li> <a href="funcaomo.html"> Funções modulares </a></li>
@@ -30,22 +30,190 @@
     <br />
     <br />
     <br />
-    
-    <h5 id="voltar"> <a href="funcaomo.html"> &#8678; Voltar </a></h5>
-        <h5 id="proxima"> <a href="fexplog.html"> &#8680; Ir para funções exponenciais e logaritmicas </a></h5>
+    <br />
+    <br />
 
-    
-   
+    <div id="papg">
+        <br />
+        
+        <h1>Progressões aritméticas e geométricas</h1>
+        
+        <br />
+        
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Primeiro, é importante entender o conceito de <b>sequência</b> e todas as suas propriedades, pois ele servirá de base para entender o resto do conteúdo. </p><br />
+        <li>Sequências numéricas seguem sempre um padrão, portanto os números da sequência são seguidos um do outro seguindo um padrão.</li>
+        <ol> Exemplo: 0, 2, 4, 6, 8, ... &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; essa é uma sequência numérica em que o padrão é que os números "pulam" de duas em duas unidades, ou podemos simplesmente dizer que é uma sequência de números pares.</ol>
+        <br />
+        <li>As sequências também são consideradas funções, onde um elemento n, pertencente ao conjunto dos N, é associado à um elemento a<sub>n</sub>. O n significa posição, portanto, entendemos que um elemento n será associado a um elemento a que está na posição n da sequência. Exemplo: </li>
+        <br />
+        <img src="imagens/graficop1.png" height="260" width="260" id="img1">
+        <p id="texto1">Essa imagem foi tirada do PDF da prof, e ela mostra a realação entre n e a<sub>n</sub>. Assim, neste exemplo, notamos que o elemento n de valor 1 corresponde a posição a<sub>1</sub> da sequência, o elemento n de valor 2 corresponde a posição a<sub>2</sub>e assim por diante.
+            
+            
+            <br />
+            <br />
+
+            
+            <font><u>Lei de formação</u></font>
+        <p>Ela pode ser definida de duas formas: </p>
+
+        <li>Fórmula de recorrência</li>
+        <ol>São dadas duas regras. Uma para calcular o a<sub>1</sub> e a outra para saber o padrão da sequência para poder calcular os próximos números. </ol>
+        <ol>&nbsp;&nbsp; &nbsp; &nbsp; &rdca; Exemplo:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &lcub; a<sub>1</sub> = 2
+            <br />
+            &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &lcub;a<sub>n</sub> = a<sub>n-1</sub> + 4, n &ge; 1 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; Dessa forma, a sequência ficaria: &nbsp;&nbsp; 2, 6, 10, 14, 18, 22, 26, 30...
+        </ol>
+        <br />
+
+        <li>Termo Geral</li>
+        <ol>Expressamos cada termo (a<sub>n</sub>) em função de sua posição n. </ol>
+        <ol>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&rdca; Exemplo:
+            <br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Escreva os 4 primeiros termos dessa sequência na qual o termo geral é:&nbsp; a<sub>n</sub> = 2<sub>n</sub> + 1
+        </ol>
+        <center>
+            <ol> n = 1 &nbsp;&rarr;&nbsp; a<sub>1</sub> = 3 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; n = 2 &nbsp;&rarr;&nbsp; a<sub>2</sub> = 5 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; n = 3 &nbsp;&rarr;&nbsp; a<sub>3</sub> = 7 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; n = 4 &nbsp;&rarr;&nbsp; a<sub>4</sub> = 9 </ol>
+        </center>
+        <br />
+
+        <li>Por propriedade de termos</li>
+        <ol>É informada a propriedade, a característica/padrão quue a sequência deve seguir</ol>
+        <ol>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&rdca; Exemplo:
+            <br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Escreva os 8 primeiros termos dessa sequência <u>infinita</u> de <u>números pares</u> na <u>ordem crescente</u>:
+            <br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Dessa forma, a sequência ficaria: (0, 2, 4, 6, 8, 10, 12, 14...)
+        </ol>
+        <br />
+        <p>Terminados esses conceitos de sequência, podemos dar início à progressão aritmética.</p>
+
+        <br />
+        <br />
+
+
+        <center>
+            <h2><b>Progressão aritmética</b></h2>
+        </center>
+
+        <br />
+
+        <font><b>Conceitos básicos</b></font>
+        <li>A progressão aritmética (PA) é uma sequência numérica em que todos os números, a partir do segundo termo, são a soma de seu anterior mais uma razão, que chamaremos de r. Muito confuso?</li><br />
+        <ol>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &rdca; Vamos fazer um exemplo: &nbsp; &nbsp; &nbsp;(0, 3, 6, 9, 12, 15...) &nbsp; &rarr; &nbsp; a<sub>1</sub> = 0 &nbsp; &nbsp; &nbsp; r = 3</ol>
+        <br />
+        <li>Existem 3 classificações para r: </li>
+        <ol>Crescente, quando r &gt; 0 e assim, o termo seguinte vai ser sempre maior que o anterior</ol>
+        <ol>Decrescente, quando r &lt; 0 e assim, o termo seguinte vai ser sempre menor que o anterior</ol>
+        <ol>Constante, quando r = 0, e assim o termo seguinte vai ser sempre igual ao anterior</ol>
+
+        <br />
+
+        <font><b>Fórmula do termo geral</b></font>
+        <li>a<sub>n</sub> = a<sub>1</sub> + (n - 1)r</li>
+        <ol>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &rdca; Vamos fazer um exemplo:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <br />
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; ache a 10º posição da PA (2, 6, 10, 14...) &nbsp; &rarr; &nbsp; a<sub>1</sub> = 2 &nbsp; &nbsp; r = 4 &nbsp; &nbsp; a<sub>10</sub> = ?
+            <br />
+            <center> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a<sub>10</sub> = 2 + (10 - 1).4 &nbsp; &rarr; &nbsp; a<sub>10</sub> = 2 + 9.4 &nbsp; &rarr; &nbsp; a<sub>10</sub> = 2 + 36 &nbsp; &rarr; &nbsp; a<sub>10</sub> = 38 </center>
+        </ol>
+
+        <br />
+
+        <font><b>Relação com a Função Afim</b></font>
+        <li>Como a sequência é também uma função, podemos fazer uma relação com a função afim. Assim, os pontos seriam (n, a<sub>n</sub>), onde n seria a posição, localizado no eixo &xscr;, e a<sub>n</sub> seria o valor dessa posição, localizado o eixo y. </li>
+        <br />
+        <p>Vamos imaginar o seguinte: </p>
+        <ol>Temos a PA (3, 5, 7, 9...), onde a razão (r) é 2 e o a<sub>1</sub> é 3. Vamos calcular o valor da posição 10:</ol>
+        <ol>a<sub>10</sub> = 1 + (10 - 1).2 &nbsp; &rarr; &nbsp; a<sub>10</sub> = 1 + 9.2 &nbsp; &rarr; &nbsp; a<sub>10</sub> = 19</ol>
+        <p>Pensando nisso, agora sabemos que o ponto é (10, 19), pois a posição está no eixo &xscr; e o valor dessa posição é 19. Agora vamos construir um gráfico para representar como seria a relação entre a PA e a função afim:</p>
+        <br />
+        <center><img src="imagens/graficop2.png" width="800"></center>
+        <br />
+        <p>No exemplo acima, tem 4 pontos marcados, para mostrar como seria a PA no gráfico da função afim.</p>
+
+        <br />
+
+        <font><b>Interpolação aritmética</b></font>
+        <li>Usamos a interpolação aritmética quando queremos adicionar um número k de números entre dois extremos de uma PA finita.</li>
+        <ol>(a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> ), onde a<sub>1</sub> é o primeiro termo, a<sub>n</sub> é o último termo e o restante chamamos de meios. Usamos a fórmula n = k + 2 para descobrir a quantidade de posições que tem na PA. Agora, vamos fazer um exemplo: </ol>
+        <br />
+        <p>Vamos interpolar 3 meios entre os extremos 2 e 6. Para isso, temos que descobrir a razão: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; n = 3 + 2 &nbsp; &rarr; &nbsp; n = 5 </p>
+        <br />
+        <p>Agora que sabemos a quantidade de posições, vamos usar a próxima fórmula para saber a razão (r):
+            <br />
+            a<sub>n</sub> = a<sub>1</sub> + (n - 1).r &nbsp; &rarr; &nbsp; 6 = 2 + (5 - 1).r &nbsp; &rarr; &nbsp; 6 - 2 = 4r &nbsp; &rarr; &nbsp; r = 4 / 4 &nbsp; &rarr; &nbsp; r = 1
+        </p>
+        <br />
+        <p>Agora que temos a razão, vamos somar 1 até chegar no 6. Portanto, a PA fica: (2, <u>3, 4, 5</u>, 6)</p>
+
+        <br />
+
+        <font><b>Soma dos termos finitos de uma PA finita</b></font>
+        <li>Usamos essa soma quando não queremos somar todos os termos um por um. A fórmula dela é: &nbsp; S<sub>n</sub> = (a<sub>1</sub> + a<sub>n</sub>).n / 2 </li>
+        <p>Vamos fazer um exemplo, onde a PA é (2, 5, 8, 11, 14...), e queremos saber a soma dos primeiros 10 termos: </p>
+        <br />
+        <ol>Primeiro, vamos calcular o valor da 10º posição com a fórmula do termo geral:
+            <br />
+            a<sub>10</sub> = 1 + (10 - 1).3 &nbsp; &rarr; &nbsp; a<sub>10</sub> = 1 + 9.3 &nbsp; &rarr; &nbsp; a<sub>10</sub> = 28
+        </ol>
+        <br />
+        <ol>O próximo passo é fazermos a soma com a fórmula que colocamos acima:
+            <br />
+            S<sub>10</sub> = (2 + 28).10 / 2 &nbsp; &rarr; &nbsp; S<sub>10</sub> = 300 / 2 &nbsp; &rarr; &nbsp; S<sub>10</sub> = 150
+        </ol>
+
+        <br />
+
+        <font><b>Reflexão</b></font>
+        <p>&nbsp; &nbsp;&nbsp;&nbsp;Esse conteúdo foi o mais simples de todos para entender. Não precisei buscar nada na Internet, o PDF da professora está muito bem explicadinho e me baseei apenas lá para fazer o trabalho 3 e o portfólio. Não fiz resumo desse conteúdo pois eu faço resumo apenas quando eu preciso entender alguma coisa que não ficou clara na hora da explicação ou da leitura. </p>
+
+        <br />
+        <br />
+
+        <center>
+            <h2><b>Progressão geométrica</b></h2>
+        </center>
+
+        <br />
+        
+        <font><b>Definição</b></font>
+        <p>A progressão geométrica é uma sequência em que o termo seguinte (a partir do segundo) é o produto do anterior pela constante, que chamaremos de q. Vamos olhar alguns exemplos para entender melhor:</p>
+        <ol>(2, 4, 8, 16, 32, 64, 128...) &nbsp; &rarr; &nbsp; a<sub>1</sub> = 2 e q = 2. </ol>
+        <ol>A razão nós podemos calcular por: q = a<sub>1</sub> / a<sub>2</sub></ol>
+        <br />
+        <ol><b>!</b>Também temos que lembrar que a constante pode ser 0, exemplo: (6, 0, 0, ...) &nbsp; &rarr; &nbsp; Aqui a constante é zero pois quando dividimos 6/0 o resultado que obtemos é 0.</ol>
+        
+        <br />
+        
+        <font><b>Classificação</b></font>
+        <li>Crescente: é quando o termo seguinte é maior que o anterior. A constante q pode ser q > 1, quando a PG tem os termos positivos; ou pode ser 0 &lt; q &lt; 1 </li>
+        <li>Decrescente: é quando o termo seguinte é menor que o anterior. A constante q pode ser q 0 &lt; q &lt; 1, quando a PG tem os termos positivos; ou q > 1, quando a PG tem termos negativos.  
+        </li>
+        <li>Constante: é quando o termo seguinte é igual ao anterior. Para isso acontecer, temos duas situações: a<sub>1</sub> = 0 e q é qualquer situação; e a PG com termos iguais, diferentes de 0, com q = 1</li>
+        <li></li>
+        
+    </div>
+
+
     <br />
     <br />
     <br />
-    
+
+    <h5 id="voltar"> <a href="funcaomo.html"> &#8678; Voltar </a></h5>
+    <h5 id="proxima"> <a href="fexplog.html"> &#8680; Ir para funções exponenciais e logaritmicas </a></h5>
+
+
+
+    <br />
+    <br />
+    <br />
+
     <div id="contatos">
-    <p>Créditos da criação do fundo do site: &nbsp;<a href="https://br.freepik.com/vetores/fundo" id="credito" target="_blank">Fundo vetor criado por macrovector - br.freepik.com</a></p><br />
+        <p>Créditos da criação do fundo do site: &nbsp;<a href="https://br.freepik.com/fotos/fundo">Fundo foto criado por lifeforstock - br.freepik.com</a></p><br />
         <p> Me siga no Instagram: @ro_giotti </p> <br />
         <p> Entre em contato por email: robertare22@gmail.com </p> <br />
     </div>
-    
+
 </body>
 
 </html>

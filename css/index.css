@@ -5,11 +5,11 @@
 
 
 body {
-    background-image: url("../imagens/4683.jpg");
+    background-image: url("../imagens/fundo8-2.jpg");
     background-repeat: no-repeat;
-    background-size: 1352px 1000px;
+    background-attachment: fixed;
+    background-size: 1350px 1000px;
 }
-
 
 
 h1 {
@@ -83,7 +83,8 @@ h3 {
 }
 
 
-#contatos {background-color: #1f1f1f;
+#contatos {
+    background-color: #1f1f1f;
     padding-bottom: 10px;
     padding-top: 15px;
     padding-left: 30px;

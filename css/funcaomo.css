@@ -4,10 +4,10 @@
 }
 
 body {
-   background-image: url("../imagens/4683.jpg");
+   background-image: url("../imagens/fundo8-2.jpg");
     background-repeat: no-repeat;
    background-attachment: fixed;
-    background-size: 1352px 1000px;
+    background-size: 1350px 1000px;
 }
 
 
@@ -108,7 +108,7 @@ a {
     font-size: 20px;
     background-color: snow;
     text-align: center;
-    height: 3300px;
+    height: 3480px;
     width: 1000px;
     text-align: justify;
     margin-left: 170px;
@@ -128,3 +128,21 @@ float: inherit;}*/
 .resumo2 {
     padding: 20px;
 }
+
+.folhas {padding-right: 155px;
+padding-bottom: 20px;}
+
+
+ul {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+
+h1 {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ffe7d8;
+}
+
+font {padding-left: 30px;}

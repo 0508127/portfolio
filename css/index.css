@@ -27,7 +27,6 @@ h1 {
     margin-left: 80px;
     color: black;
     font-size: 16px;
-    font-family: 'Open Sans';
 }
 
 
@@ -45,7 +44,9 @@ h3 {
     text-align: right;
     vertical-align: baseline;
     margin-right: 20px;
-    color: white;
+    color: black;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -96,7 +97,11 @@ h3 {
 }
 
 a {
-    color: white;
+    color: black;
     font-size: 15px;
     text-shadow: none;
+}
+
+#credito {
+    color: white;
 }

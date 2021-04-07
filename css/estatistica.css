@@ -47,6 +47,7 @@ body {
 }
 
 
+
 #titulo {
     text-align: center;
     vertical-align: middle;
@@ -64,11 +65,6 @@ body {
 
 #sum {
     margin-left: 250px;
-}
-
-
-img {
-    border: 2px solid black;
 }
 
 
@@ -95,9 +91,18 @@ a {
     color: black;
     margin-bottom: -20px;
     margin-left: 25px;
-    font-size: 15px;
     font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
 }
+
+
+font {
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+
+img {border: 2px solid black;}
 
 
 #proxima {
@@ -111,8 +116,12 @@ a {
 }
 
 
-#fm {
-    font-size: 20px;
+#credito {
+    color: white;
+}
+
+
+#est {
     background-color: snow;
     text-align: center;
     height: auto;
@@ -125,43 +134,33 @@ a {
     padding: 28px;
     font-family: 'Libre Baskerville', serif;
     font-size: 17px;
+    vertical-align: middle;
 }
 
 
-/*#grafico3 {
-padding-bottom: 400px;
-padding-left: 400px;
-float: inherit;}*/
-
-
-.resumo2 {
-    margin: 20px;
-}
-
-.folhas {
-    margin-bottom: 20px;
-    margin-right: 125px;
-    margin-left: 20px;
+.graficos {
+    margin-top: 45px;
+    border: solid black 2px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 
-ul {
-    padding-left: 50px;
-    padding-right: 20px;
+
+.grafico2 {
+    margin-top: 50px;
+    border: solid black 2px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.grafico1 {
+    border: solid black 2px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 
 h1 {
-    vertical-align: middle;
-    text-align: center;
-    background-color: #ffe7d8;
-}
-
-font {
-    padding-left: 30px;
-}
-
-
-#contatos a {
-    color: white;
+    background-color: #ffeee3;
 }
